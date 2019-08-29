@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+}
+
+nav a {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+}
