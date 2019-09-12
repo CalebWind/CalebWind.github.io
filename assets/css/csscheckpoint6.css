@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  nav {
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+  }
+  
+  nav a {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+  }
+  
+#draggable { width: 150px; height: 150px; padding: 0.5em; }
